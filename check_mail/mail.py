@@ -11,7 +11,7 @@ text = 'Your mail box has been opened!!!\n\n'
 text = text + 'Time: '+now.strftime("%H:%M:%S %Y-%m-%d")+'\n\n'
 
 sent_from = GMAIL_USER 
-to = ['destimation@gmail,com']
+to = ['destination@gmail,com']
 subject = 'Mailbox Alert'
 body = text
 
