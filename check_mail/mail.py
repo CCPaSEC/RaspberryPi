@@ -2,8 +2,8 @@
 import smtplib
 import datetime
 
-GMAIL_USER = "wx2dx.bill@gmail.com"
-GMAIL_PASS = "n3szwab3bz"
+GMAIL_USER = "from@gmmail.com"
+GMAIL_PASS = "PW"
 
 now = datetime.datetime.now()
 
@@ -11,7 +11,7 @@ text = 'Your mail box has been opened!!!\n\n'
 text = text + 'Time: '+now.strftime("%H:%M:%S %Y-%m-%d")+'\n\n'
 
 sent_from = GMAIL_USER 
-to = ['wx2dx_bill@verizon.net']
+to = ['destimation@gmail,com']
 subject = 'Mailbox Alert'
 body = text
 
